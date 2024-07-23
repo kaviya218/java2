@@ -1,0 +1,14 @@
+import java.io.*;
+class hello{
+public static void main(String[]args)
+{
+    String str="mam";
+    System.out.println("The String is :"+str);
+    int count=0;
+    for(char i:str.toCharArray())
+    {
+        count++;
+    }
+    System.out.println(count);
+}
+}
